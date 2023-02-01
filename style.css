@@ -1,0 +1,166 @@
+/* FONT */
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Manrope:wght@300&family=Roboto&display=swap');
+
+@font-face {
+    font-family: "AnotherDanger";
+    src: url("/font/AnotherDanger/TTF/AnotherDanger.ttf");
+}
+
+@font-face {
+    font-family: "ClashGrotesk";
+    src: url("/font/ClashGrotesk/Fonts/Variable/ClashGrotesk-Variable.ttf");
+}
+/* Animations */
+
+:root {
+    --primary: #d086fe;
+}
+
+/* GLOBAL */
+h1,
+h2 {
+    font-family: 'AnotherDanger', 'sans-serif' !important;
+    color: var(--primary);
+}
+
+h3 {
+    font-weight: 800 !important;
+}
+
+body {
+    font-family: 'ClashGrotesk', 'sans-serif' !important;
+}
+
+p {
+    font-size: 20px !important;
+}
+.accordion h3{
+    font-size: 1em;
+}
+
+.btn {
+    font-weight: 700 !important;
+    border-radius: 0 !important;
+}
+
+.btn-custom {
+    border: 1px solid #d086fe !important;
+    font-weight: bold !important;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    width: fit-content;
+}
+.btn-custom:hover {
+    border: 1px solid #fff !important;
+    background: #fff;
+    color: #121212 !important;
+}
+
+.btn-lg {
+    padding: 1rem 2rem !important;
+}
+
+
+
+section {
+    background-color: #121212;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+a {
+    color: rgb(252, 252, 252) !important;
+}
+
+a:hover {
+    color: var(--primary) !important;
+    transition-duration: 0.4s;
+}
+
+/* .card {
+    border: none !important;
+} */
+
+/* PARALLAX */
+.parallax {
+    min-height: 15em;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(50%);
+}
+
+.parallax-1 {
+    background-image: url("/images//Parallax/parallax-background-04.webp");
+}
+
+.parallax-2 {
+    background-image: url("/images//Parallax/parallax-background-04.webp");
+}
+
+.parallax-3 {
+    background-image: url("/images//Parallax/parallax-background-05.webp");
+}
+
+.parallax-4 {
+    background-image: url("/images//Parallax/parallax-background-04.webp");
+}
+
+.parallax-5 {
+    background-image: url("/images//Parallax/parallax-background-04.webp");
+}
+
+.parallax-6 {
+    background-image: url("/images//Parallax/parallax-background-05.webp");
+}
+
+/* NAVBAR */
+.navbar {
+    /* background: rgba(219, 219, 219, 16%); */
+    background-color: #121212b9;
+    backdrop-filter: blur(40px);
+    z-index: 3;
+}
+
+/* Frequently Asked Questions */
+.accordion-flush .accordion-item .accordion-button {
+    border-radius: 0;
+    background: #000;
+    color: white;
+}
+
+.accordion-button:focus,
+.form-control:focus {
+    outline: none !important;
+    border: 1px solid #d086fe !important;
+    box-shadow: none !important;
+}
+
+.accordion-button:after {
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23d086fe'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+}
+
+
+/* CONTACT */
+#contact h3 {
+    color: var(--primary);
+}
+
+
+/* FOOTER */
+footer h3 {
+    color: var(--primary);
+}
+
+.i-custom {
+    color: var(--primary) !important;
+}
+
+.bi-arrow-up-circle:hover::before {
+    color: white !important;
+}
+
+.bi {
+    font-size: 1.45rem !important;
+}
